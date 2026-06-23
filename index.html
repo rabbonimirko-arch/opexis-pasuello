@@ -15,7 +15,7 @@
 body{
   font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
   min-height:100vh;
-  background:url("13.png") center/cover no-repeat fixed;
+  background:url("13(3).png") center/cover no-repeat fixed;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -48,33 +48,61 @@ header{
   align-items:center;
   gap:10px;
 }
+
 .logo{
-  width:42px;height:42px;border-radius:50%;
+  width:42px;
+  height:42px;
+  border-radius:50%;
   background:var(--blue);
-  display:flex;align-items:center;justify-content:center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
   font-weight:800;
 }
+
 header div span:first-child{
-  font-size:14px;font-weight:700;letter-spacing:.08em;
-}
-header div span:last-child{
-  font-size:11px;color:#c2d4ff;
+  font-size:14px;
+  font-weight:700;
+  letter-spacing:.08em;
 }
 
-/* CONTATTO */
+header div span:last-child{
+  font-size:11px;
+  color:#c2d4ff;
+}
+
 .card{
   background:rgba(2,6,23,.6);
   border:1px solid var(--line);
   border-radius:18px;
   padding:12px;
 }
+
 .card h2{
-  font-size:14px;margin-bottom:6px;
+  font-size:14px;
+  margin-bottom:6px;
 }
+
 .card .meta{
-  font-size:12px;margin-bottom:10px;
+  font-size:12px;
+  margin-bottom:10px;
+  line-height:1.6;
 }
-.card a{color:#d1e3ff;text-decoration:none}
+
+.card a{
+  color:#d1e3ff;
+  text-decoration:none;
+}
+
+.profile-photo{
+  float:right;
+  width:78px;
+  height:78px;
+  border-radius:50%;
+  object-fit:cover;
+  margin:0 0 8px 10px;
+  border:2px solid rgba(255,255,255,.6);
+}
 
 .actions{
   display:flex;
@@ -82,6 +110,7 @@ header div span:last-child{
   gap:8px;
   justify-content:center;
 }
+
 .btn{
   display:inline-flex;
   align-items:center;
@@ -95,38 +124,48 @@ header div span:last-child{
   text-decoration:none;
   cursor:pointer;
 }
+
 .dot{
-  width:9px;height:9px;border-radius:50%;
+  width:9px;
+  height:9px;
+  border-radius:50%;
   background:#fff;
 }
 
-/* HERO */
 .hero{
   text-align:center;
 }
+
 .hero h1{
   font-size:24px;
   margin:6px 0;
 }
-.hero h1 span{color:var(--blue)}
-.hero p{
-  font-size:13px;color:#d1e3ff;
+
+.hero h1 span{
+  color:var(--blue);
 }
 
-/* VIDEO */
+.hero p{
+  font-size:13px;
+  color:#d1e3ff;
+}
+
 .video-box{
   background:#000;
   border-radius:16px;
   overflow:hidden;
   margin:8px 0;
 }
+
 video{
   width:100%;
   display:block;
 }
+
 .video-controls{
   display:flex;
 }
+
 .video-controls button{
   flex:1;
   padding:10px;
@@ -137,7 +176,6 @@ video{
   cursor:pointer;
 }
 
-/* CTA AI */
 .cta a{
   display:block;
   width:100%;
@@ -150,7 +188,6 @@ video{
   text-decoration:none;
 }
 
-/* SOCIAL */
 .socials{
   display:flex;
   gap:8px;
@@ -168,6 +205,7 @@ footer{
 </head>
 
 <body>
+
 <div class="phone">
 
 <header>
@@ -178,70 +216,161 @@ footer{
   </div>
 </header>
 
-<!-- CONTATTO -->
 <section class="card">
-  <h2>Gianclaudia Alberti Passuello</h2>
-  <div class="meta">
-    Email:
-    <a href="mailto:campobase101@gmail.com">campobase101@gmail.com</a><br>
-    Telefono:
-    <a href="tel:+393208029432">+39 320 802 9432</a>
-  </div>
 
-  <div class="actions">
-    <a class="btn" href="tel:+393208029432"><span class="dot"></span>Chiama</a>
-    <a class="btn" href="mailto:campobase101@gmail.com"><span class="dot"></span>Email</a>
+<h2>Gianclaudia Passuello</h2>
 
-    <a class="btn" href="https://www.facebook.com/share/17Sbu58ATK/" target="_blank" rel="noopener">
-      <span class="dot"></span>Facebook
-    </a>
+<img src="foto profilo gianclaudia passuello.jpeg"
+     alt="Gianclaudia Passuello"
+     class="profile-photo">
 
-    <a class="btn" href="https://www.instagram.com/gianclaudia.giancli?igsh=OTVyM3Yyc2U1czA1" target="_blank" rel="noopener">
-      <span class="dot"></span>Instagram
-    </a>
+<div class="meta">
 
-    <a class="btn" href="https://opexis.digital/?ref=27" target="_blank" rel="noopener">
-      <span class="dot"></span>I nostri Servizi
-    </a>
+<strong>AboutMe AI Card</strong><br>
+Card digitale personale<br><br>
 
-    <a class="btn" href="https://opexis.digital/prodotto/aboutme-ai-card-servizio/" target="_blank" rel="noopener">
-      <span class="dot"></span>About Me AI Card
-    </a>
+Gianclaudia Passuello presenta la propria scheda digitale personale per condividere in modo rapido i propri contatti, WhatsApp, Telegram, social e riferimenti online collegati al mondo Opexis.<br><br>
 
-    <button class="btn" onclick="saveContact()">
-      <span class="dot"></span>Salva in rubrica
-    </button>
-  </div>
+Attraverso questa card puoi contattarla direttamente, salvare il contatto in rubrica e accedere ai collegamenti digitali personali in modo semplice, veloce e professionale.<br><br>
+
+<strong>Indirizzo:</strong><br>
+Frazione Pratrivero, 115<br>
+13835 Valdilana, Biella<br>
+Italia<br><br>
+
+Email:
+<a href="mailto:campobase101@gmail.com">
+campobase101@gmail.com
+</a><br>
+
+Telefono:
+<a href="tel:+393208029432">
+3208029432
+</a><br>
+
+Opexis:
+<a href="https://opexis.digital/?ref=27" target="_blank" rel="noopener">
+opexis.digital/?ref=27
+</a><br>
+
+Servizio AboutMe:
+<a href="https://opexis.digital/prodotto/aboutme-ai-card-servizio/" target="_blank" rel="noopener">
+aboutme-ai-card-servizio
+</a>
+
+</div>
+
+<div class="actions">
+
+<a class="btn" href="tel:+393208029432">
+<span class="dot"></span>Chiama
+</a>
+
+<a class="btn"
+href="mailto:campobase101@gmail.com">
+<span class="dot"></span>Email
+</a>
+
+<a class="btn"
+href="https://wa.me/qr/PNKD2D3E3CH2E"
+target="_blank">
+<span class="dot"></span>WhatsApp
+</a>
+
+<a class="btn"
+href="https://t.me/Gianclaudia"
+target="_blank">
+<span class="dot"></span>Telegram
+</a>
+
+<a class="btn"
+href="https://www.facebook.com/share/1B9i7hzejQ/"
+target="_blank">
+<span class="dot"></span>Facebook
+</a>
+
+<a class="btn"
+href="https://www.instagram.com/gianclaudia.passuello?igsh=MWMyNGQ5N2pzOTZ5MA=="
+target="_blank">
+<span class="dot"></span>Instagram
+</a>
+
+<a class="btn"
+href="https://opexis.digital/?ref=27"
+target="_blank">
+<span class="dot"></span>Opexis
+</a>
+
+<a class="btn"
+href="https://opexis.digital/prodotto/aboutme-ai-card-servizio/"
+target="_blank">
+<span class="dot"></span>AboutMe
+</a>
+
+<button class="btn" onclick="saveContact()">
+<span class="dot"></span>Salva in rubrica
+</button>
+
+</div>
+
 </section>
 
-<!-- HERO -->
 <section class="hero">
-  <h1>Il marketing <span>con AI</span></h1>
 
-  <div class="video-box">
-    <video id="introVideo" autoplay playsinline muted>
-      <source src="video_intro.mp4" type="video/mp4">
-    </video>
+<h1>La tua card con <span>AI</span></h1>
 
-    <div class="video-controls">
-      <button onclick="enableAudio()">🔊 Attiva audio</button>
-      <button onclick="stopVideo()">⏹ Stop</button>
-    </div>
-  </div>
+<div class="video-box">
 
-  <p>Scopri Twynet: social professionale, AI, formazione e opportunità di business.</p>
+<video id="introVideo" autoplay muted playsinline>
+<source src="video_intro.mp4" type="video/mp4">
+</video>
+
+<div class="video-controls">
+
+<button onclick="enableAudio()">
+🔊 Attiva audio
+</button>
+
+<button onclick="stopVideo()">
+⏹ Stop
+</button>
+
+</div>
+
+</div>
+
+<p>
+Una card digitale semplice, immediata e professionale per restare sempre in contatto.
+</p>
+
 </section>
 
-<!-- CTA AI -->
 <section class="cta">
-  <a href="ai.html">💬 Parla con l’AI</a>
+<a href="ai.html">
+💬 Parla con l'AI
+</a>
 </section>
 
-<!-- SOCIAL OPEXIS -->
 <section class="socials">
-  <a class="btn" href="https://www.instagram.com/opexis.digital/" target="_blank" rel="noopener"><span class="dot"></span>Opexis IG</a>
-  <a class="btn" href="https://www.facebook.com/profile.php?id=61580851595121" target="_blank" rel="noopener"><span class="dot"></span>Opexis FB</a>
-  <a class="btn" href="https://www.linkedin.com/company/opexis/" target="_blank" rel="noopener"><span class="dot"></span>LinkedIn</a>
+
+<a class="btn"
+href="https://www.instagram.com/opexis.digital/"
+target="_blank">
+<span class="dot"></span>Opexis IG
+</a>
+
+<a class="btn"
+href="https://www.facebook.com/profile.php?id=61580851595121"
+target="_blank">
+<span class="dot"></span>Opexis FB
+</a>
+
+<a class="btn"
+href="https://www.linkedin.com/company/opexis/"
+target="_blank">
+<span class="dot"></span>LinkedIn
+</a>
+
 </section>
 
 <footer>
@@ -251,44 +380,63 @@ footer{
 </div>
 
 <script>
-document.getElementById("year").textContent = new Date().getFullYear();
 
-const video = document.getElementById("introVideo");
+document.getElementById("year").textContent =
+new Date().getFullYear();
+
+const video =
+document.getElementById("introVideo");
 
 function enableAudio(){
-  video.muted = false;
-  video.volume = 1;
-  video.play();
+video.muted=false;
+video.volume=1;
+video.play();
 }
 
 function stopVideo(){
-  video.pause();
-  video.currentTime = 0;
+video.pause();
+video.currentTime=0;
 }
 
 function saveContact(){
+
 const vcf=`BEGIN:VCARD
 VERSION:3.0
-FN:Gianclaudia Alberti Passuello
-N:Alberti Passuello;Gianclaudia;;;
+FN:Gianclaudia Passuello
+N:Passuello;Gianclaudia;;;
+ORG:AboutMe AI Card
+TITLE:Card digitale personale
 TEL;TYPE=CELL:+393208029432
 EMAIL:campobase101@gmail.com
-URL:https://www.facebook.com/share/17Sbu58ATK/
-URL:https://www.instagram.com/gianclaudia.giancli
+URL:https://wa.me/qr/PNKD2D3E3CH2E
+URL:https://t.me/Gianclaudia
 URL:https://opexis.digital/?ref=27
 URL:https://opexis.digital/prodotto/aboutme-ai-card-servizio/
+URL:https://www.facebook.com/share/1B9i7hzejQ/
+URL:https://www.instagram.com/gianclaudia.passuello?igsh=MWMyNGQ5N2pzOTZ5MA==
+ADR;TYPE=WORK:;;Frazione Pratrivero 115;Valdilana;Biella;13835;Italia
+NOTE:AboutMe AI Card - Card digitale personale Opexis.
 END:VCARD`;
 
-const blob=new Blob([vcf],{type:"text/vcard"});
+const blob=new Blob([vcf],{
+type:"text/vcard"
+});
+
 const url=URL.createObjectURL(blob);
+
 const a=document.createElement("a");
+
 a.href=url;
-a.download="gianclaudia-alberti-passuello.vcf";
+a.download="gianclaudia-passuello.vcf";
+
 document.body.appendChild(a);
 a.click();
 a.remove();
+
 URL.revokeObjectURL(url);
+
 }
+
 </script>
 
 </body>
